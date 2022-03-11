@@ -17,5 +17,5 @@ Find the difference between the total number of CITY entries in the table and th
 ![1449345840-5f0a551030-Station](https://user-images.githubusercontent.com/691355/157988149-257848f1-afb8-401f-9fa3-9d10c839861f.jpg)
 
 ```sql
-select count(CITY)-COUNT(DISTINCT CITY) as cityDifference from STATION;
+select count(CITY)-count(distinct CITY) as cityDifference from STATION;
 ```
